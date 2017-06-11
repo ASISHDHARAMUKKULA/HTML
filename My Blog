@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+.hide{
+display:none;
+}
+.Hide{
+display:none;
+}
+h1{
+background-color:orange;
+text-align:center;
+}
+table{
+width:100%;
+border:1px solid black;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	border:1px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+th {
+background-color:maroon;
+color:white;
+text-align:center;
+}
+</style>
+<script>
+$(document).ready(function(){
+$("#skill").on('click',function(){
+$(".hide").slideToggle("fast");
+});
+});
+$(document).ready(function(){
+$("#ytr").on('click',function(){
+$(".Hide").slideToggle("fast");
+});
+});
+
+
+</script>
+	<title>Asish Blog</title>
+</head>
+
+<body>
+	<h1><span>About Me</span></h1>
+	
+<h1 style="text-align:center"><span id="skill" >My Skills</span></h1>
+<ul class="hide">
+	
+	
+	<li>HTML</li> 
+	<li>c</li>
+	<li>c#</li>
+</ul>
+<h1 style="text-align:center"><span id="ytr" >My Schedule</span></h1>
+<table border="1" class="Hide">
+<tr>
+	<th>Day</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thu</th>
+	<th>Fri</th>
+	<th>Sat</th>
+</tr>
+<tr>
+	<td>5:30</td>
+				<td>WakeUp</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+
+</tr>
+<tr>
+	<td>8:00</td>
+	<td></td>
+				<td>College</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				
+</tr>
+<tr>
+	<td>9:00</td>
+		<td></td>
+			<td></td>
+				<td>College</td>
+				<td></td>
+				<td></td>
+					
+<td></td>
+</tr>
+<tr>
+	<td>12:00</td>
+		<td></td>
+		<td></td>
+			<td></td>
+				<td>Lunch</td>
+					<td></td>
+<td></td>
+</tr>
+<tr>
+	<td>5:00</td>
+	<td></td>
+				<td></td>
+					<td></td>
+						<td></td>
+						<td>Home</td>
+							<td></td>
+				
+</tr>
+<tr>
+	<td>11:00</td>
+	<td></td>
+				<td></td>
+				<td></td>
+					<td></td>
+						<td></td>
+						<td>Sleep</td>
+							
+				
+</tr>
+</table>
+</div>
+<h1><span>Contact Me</span></h1>
+
+<form>
+	<input type="text" name="name" required placeholder="NAME"/>
+	<p></p>
+	<input name="email" required placeholder="email" type="email"/>
+	<p></p>
+	<textarea placeholder="Type your message here..." rows=5 cols=50></textarea>
+	<p></p>
+	<input type="submit" value="SEND"/>
+	<p></p>
+	</form>
+	
+</body>
+</html>
+		
