@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login and Registration
+
+	</title>
+	<link rel="stylesheet" type="text/css" href="reservation.css">
+</head>
+<body>
+<div class="Login">
+	<div class="Registration">
+		<form class="register">
+			<input type="text" name="" placeholder="Enter your Name">
+			<p></p>
+			<input type="Password" name="" placeholder="Enter your Password">
+			<p></p>
+			<input type="text" name="" placeholder="Enter your Email">
+			<p>	</p>
+			<button>Create</button>
+			<p class="msg">Already Registerd? <a href="#">Login</p> 
+
+		</form>
+		<form class="login">
+			<input type="text" name="" placeholder="Enter Your Name">
+			<p></p>
+			<input type="Password" name="" placeholder="Enter your Password">
+			<p></p>
+			<button>Login</button>
+			<p class="msg"><a href="#">Register</p>
+		</form>
+</div>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+<script type="text/javascript">
+	$('msg a').click(function(){
+			$('login').animate({height:"toggle",opacity:"toggle"},"slow");
+	}
+</script>
+</body>
+</html>

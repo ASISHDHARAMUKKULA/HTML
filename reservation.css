@@ -1,0 +1,84 @@
+body{
+	background-image: url(http://media2.intoday.in/indiatoday/images/stories/story_flickr-smeer-chowdhury_647_090616015106_081417074235.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.Login{
+	width: 360px;
+	padding: 10%;
+	margin:auto;
+}
+.registration{
+	position: relative;;
+	z-index: auto;
+	background: #ffffff;
+	max-width: 360px;
+	padding: 45px;
+	text-align: center;
+}
+.register input{
+	font-family: "Roboto","sans-serif";
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size:20px;
+}
+.register button{
+	font-family: "Roboto","sans-serif";
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAG50;
+	width: 100%;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 15px;
+	cursor: pointer; 
+}
+.login input{
+	font-family: "Roboto","sans-serif";
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size:20px;
+
+}
+.login button{
+	font-family: "Roboto","sans-serif";
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAG50;
+	width: 100%;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 15px;
+	cursor: pointer; 
+
+}
+.register button:hover,.register button:active{
+	background: #43A047;
+}
+.login .msg{
+	margin: 15px;
+	color: aliceblue;
+	font-size: 12px;
+
+}
+.login .msg a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+.Registration .register{
+	display: none;
+}
+.login button:hover,.login button active{
+	background: #43A047;
+}
