@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+<script>
+	function validate(){
+	var un=document.getElementById("uname").value;
+	if(un==null||un=""){
+		alert("Name cannot be Blank");
+		}
+	
+	}
+	</script>
+	
+	<header>Log-In</header>
+	<tr>
+	
+		<td><input type="text" name="uname" placeholder="Enter Username" id="uname" ><br></td></tr>
+		<tr>
+		
+		<td><input type="password" name="upwd" placeholder="Enter Password"><br></td></tr>
+		<tr><td><input type="submit" name="btnsubmit" value="Login" onclick="validate()"></td></tr>
+		
+		
+		
+	
+</body>
+</html>
