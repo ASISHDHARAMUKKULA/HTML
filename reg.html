@@ -2,8 +2,29 @@
 <html>
 <head>
 	<title>Register</title>
+	<script>
+	function validate(e)
+	{
+		var username=document.getElementByName("uname").value;
+		var userpwd=document.getElementByName("upwd").value;
+		if(username.length==0)
+		{
+			alert("you must enter username");
+			return;
+		}
+		if(userpwd.length==0)
+		{
+			alert("you must enter password");
+		}
+	}
+	window.onload=function(){
+	document.getElementById("mylog").addEventListener("submit",function(e){
+	validate(e);
+	});
+	</script>
 </head>
 <body>
+	<form id="mylog" method="post">
 
 	<center>
 		<header>REGISTER</header>
