@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contactus</title>
+	<style>
+		@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
+		*{
+			box-sizing:border-box;	
+			-webkit-box-sizing:border-box;
+			-moz-box-sizing:border-box;
+		}
+		body{
+			background:#f1f1f2;
+			padding: 0;
+			font-family: 'Roboto Slab',Serif;
+
+
+		}
+		.contain{
+			border:1px solid gray;
+			max-width: 600px;
+			margin: auto;
+			padding: 10px;
+			font-size: 18px;
+			font-weight: bold;
+
+		}
+		.header{
+			background-color: #4180c5;
+			text-align: center;
+			max-width: 600px;
+			color: aliceblue;
+			padding: 10px;
+			margin:auto;
+			border:1px solid gray;
+			border-bottom: none;
+
+		}
+		.header h2{
+			margin: 0;
+			padding: 15px;
+
+		}
+		input[type=text]{
+			margin-bottom: 20px;
+			margin-top: 10px;
+			width: 100%;
+			padding: 16px;
+			border-radius: 5px;
+			border:1px solid #7ac9b7;
+			font-size:15px;
+
+		}
+		input[type=submit]{
+			margin-bottom: 20px;
+			width: 100%;
+			padding: 14px;
+			border-radius: 5px;
+			border:1px solid #7ac9b7;
+			background-color: #008CBA
+			cursor: pointer;
+			font-size: 18px;
+
+		}
+		textarea{
+			width: 100%;
+			padding: 10px;
+			margin-top: 10px;
+			border: 1px solid #7ac9b7;
+			border-radius: 5px;
+			font-size: 18px;
+
+
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h2>Contact Us</h2>
+
+	</div>
+	<div class="contain">
+		<label>Name</label>
+		
+
+		<input type="text" name="username" placeholder="Enter Your Name" required="">
+		<p></p>
+		<label>Email Id</label>
+		<input type="text" name="email" placeholder="Enter mail id" required="">
+		<p></p>
+		<label>Contact Number</label>
+		<input type="text" name="number" placeholder="Enter Your Contact Number" required="">
+		<p></p>
+		<label>Your Message Here</label>
+		<textarea name="message" rows="6" cols="15" placeholder="Enter Message Here" required=""></textarea>
+		<p></p>
+		<input type="submit" name="btn" value="Send" id="submit">
+	</div>
+
+
+</body>
+</html>
